@@ -13,7 +13,7 @@ public class GenericsRunner {
         return sum;
     }
 
-    static void addACoupleOfValues(List<? super Number> numbers) { // 하한 경
+    static void addACoupleOfValues(List<? super Number> numbers) { // 하한 경계
         numbers.add(1);
         numbers.add(1.0);
         numbers.add(1L);
